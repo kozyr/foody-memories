@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/context_menu_place_view"
+        android:title="@string/context_menu_place_view_label" />
+    <item
+        android:id="@+id/context_menu_place_edit"
+        android:title="@string/context_menu_place_edit_label" />
+    <item
+        android:id="@+id/context_menu_place_delete"
+        android:title="@string/context_menu_place_delete_label" />
+</menu>

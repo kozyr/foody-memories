@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:padding="2dp"
+	android:orientation="vertical"
+	android:paddingBottom="10dp" >
+
+	<TextView 
+		android:id="@+id/thing_list_name" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:gravity="center_vertical|center_horizontal"
+		android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	<ImageView 
+		android:id="@+id/thing_list_photo"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center"
+    	android:layout_height="128dp"
+     />
+
+	<RatingBar 
+		android:id="@+id/thing_list_rating"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		style="@style/foodRatingBarSmall" 
+		android:isIndicator="true"
+		android:paddingTop="5dp"
+		android:layout_gravity="center"
+		android:numStars="5" 
+		android:stepSize="0.5" />
+</LinearLayout>

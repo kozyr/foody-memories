@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_menu_add"
+        android:id="@+id/menu_place_add"
+        android:title="@string/menu_place_add_label"
+        android:alphabeticShortcut="a" />
+	 <item
+	 	android:icon="@drawable/about1"
+        android:id="@+id/menu_place_about"
+        android:title="@string/menu_place_about_label"
+        android:alphabeticShortcut="b" />
+</menu>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<string name="app_name">Foody Memories</string>
+<string name="menu_place_add_label">Add Place</string>
+<string name="context_menu_place_delete_label">Delete</string>
+<string name="place_review">Review:</string>
+<string name="place_name">Name: </string>
+
+<string name="place_confirm">Save</string>
+<string name="thing_name">Food: </string>
+<string name="thing_review">Review:</string>
+<string name="thing_rating">Rate it!</string>
+<string name="thing_confirm_label">Save</string>
+<string name="menu_thing_add_label">Add food</string>
+<string name="context_menu_thing_delete_label">Delete</string>
+<string name="context_menu_thing_edit_label">View</string>
+<string name="context_menu_place_view_label">See menu</string>
+<string name="context_menu_place_edit_label">Edit</string>
+<string name="thing_add_photo_label">Add Photo</string>
+<string name="thing_cancel_label">Cancel</string>
+<string name="thing_update_photo_label">Update Photo</string>
+<string name="thing_delete_photo_label">Delete Photo</string>
+<string name="thing_update_photo_menu">Update Photo</string>
+<string name="thing_delete_photo_menu">Delete Photo</string>
+<string name="thing_share_label">Share...</string>
+
+<string name="thing_select_gallery_menu">Select from Gallery</string>
+<string name="menu_place_about_label">About...</string>
+<string name="about_string"><ul>
+<li>1.4.0: Misc. UI updates</li>
+<li>1.3.1: Ads are gone!\n</li>
+<li>1.2.2: Share data with paid app if needed.\n</li>
+<li>1.2.1: Consumes less memory; more icons.\n</li>
+<li>1.2.0: Ability to use existing photos; support for Android 1.5+\n</li>
+<li>1.1.1: Better ad integration (on the bottom)\n</li>
+<li>1.1.0: Initial ad-supported release.\n</li>
+</ul>
+</string>
+<string name="about_header">This is just a small description of updates for each version so you know what\'s changing.
+Please email kozyr.developer@gmail.com with suggestions / feature requests / questions / complaints / etc...</string>
+<string name="about_footer">Thank you for using Foody Memories!</string>
+<string name="load_db">Load DB...</string>
+<string name="dump_db">Dump DB...</string>
+</resources>

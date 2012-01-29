@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+    
+<RelativeLayout 
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		
+		<TextView 	android:id="@+id/thing_text_name"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content" 
+						android:text="@string/thing_name" 
+						android:layout_alignParentLeft="true"
+						android:layout_alignParentTop="true"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="10dp"
+						
+		/>
+		
+		<EditText 	android:id="@+id/thing_name" 
+			  			android:layout_width="fill_parent"
+						android:layout_height="wrap_content" 
+						android:layout_toRightOf="@id/thing_text_name" 
+						android:layout_margin="5dp"
+		/>
+		
+		<ImageButton 	android:id="@+id/thing_image_view"
+						android:longClickable="true"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="10dp"
+						android:layout_marginTop="5dp"
+						android:layout_marginLeft="31dp"
+						android:layout_marginRight="31dp"
+						android:layout_centerHorizontal="true"
+						android:scaleType="fitXY"
+						android:adjustViewBounds="true"
+						android:layout_below="@id/thing_name"
+		/>
+			
+		<RatingBar 	android:id="@+id/thing_rating"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:numStars="5"
+					android:stepSize="0.5"
+					android:layout_marginTop="5dp"
+					android:layout_marginBottom="5dp"
+					android:layout_centerHorizontal="true"
+					android:layout_below="@id/thing_image_view"
+					style="@style/foodRatingBar" />
+	
+		<TextView 	android:id="@+id/thing_text_review"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:text="@string/thing_review"
+					android:layout_marginLeft="5dp" 
+					android:layout_below="@id/thing_rating"
+					android:layout_alignParentLeft="true"/>
+		
+		<EditText 	android:id="@+id/thing_review" 
+		    		android:inputType="textMultiLine"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_below="@id/thing_rating"
+					android:layout_toRightOf="@id/thing_text_review"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_above="@+id/thing_confirm"
+					android:scrollbars="vertical" 
+		/>	
+		
+		<Button 	android:id="@+id/thing_confirm" 
+					  		android:text="@string/thing_confirm_label"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentLeft="true"
+							android:layout_alignParentBottom="true"
+		 />
+							
+		<Button 	android:id="@+id/thing_share" 
+					  		android:text="@string/thing_share_label"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_alignParentRight="true"
+							android:layout_alignParentBottom="true"
+							android:layout_marginRight="5dp"
+		 />
+		 	
+</RelativeLayout>

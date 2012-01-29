@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+    	android:icon="@drawable/gallery"
+        android:id="@+id/context_menu_thing_select_gallery"
+        android:title="@string/thing_select_gallery_menu" /> 
+    <item
+    	android:icon="@drawable/update"
+        android:id="@+id/context_menu_thing_update_photo"
+        android:title="@string/thing_update_photo_menu" />
+    <item
+ 		android:icon="@drawable/delete"
+        android:id="@+id/context_menu_thing_delete_photo"
+        android:title="@string/thing_delete_photo_menu" /> 
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<LinearLayout 	android:orientation="horizontal"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content">
+
+		<TextView 	android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:text="@string/place_name"
+					android:paddingRight="5dp" />
+		<EditText 	android:id="@+id/place_name" 
+		  			android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:layout_weight="1"/>
+	</LinearLayout>
+
+	<TextView 		android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:text="@string/place_review" />
+		
+	<EditText 		android:id="@+id/place_review" 
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:scrollbars="vertical" />
+	
+	<Button 		android:id="@+id/place_confirm" 
+	  				android:text="@string/place_confirm"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" />
+					
+	
+
+</LinearLayout>
